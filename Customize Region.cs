@@ -36,7 +36,7 @@
         {
             return table switch
             {
-                Tables.Users => "",
+                Tables.Users => "Data Source=ServerName;Initial Catalog=DatabaseName;User id=ID;Password=PW;",
                 _ => string.Empty
             };
         }
