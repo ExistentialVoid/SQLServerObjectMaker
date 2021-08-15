@@ -1,7 +1,9 @@
 ﻿This library is designed to be modified toward a particular database; reducing general functionality toward specific, accurate, usage of record objects. 
 This library allows users of apps (relying on said database) to avoid working with SQL and dbole objects by creating custom objects that handle SQL and SQL client lib.
 
-The only caution to be taken in considering this methodology is that each edit of a targeted datatable must be reflected by various objects.
+The only caution to be taken in considering this methodology is that each edit of a targeted datatable must be reflected by a few (limited by design) objects.
+Targeting .NET 5.0 and following OOP principles and architecture, this structure is designed to be robust and limit exceptions.
+Of course futher safe practices can be built on top of the following model - whereas this model assumes close relationship between devs of library, database, and target apps.
 
 These custom objects are expected to contain the folliwng functionality:
 	1) Properties that get and set the datarecord values.
