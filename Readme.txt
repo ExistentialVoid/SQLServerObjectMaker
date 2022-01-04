@@ -1,5 +1,5 @@
-﻿This library is designed to be modified toward a particular database; reducing general functionality toward specific, accurate, usage of record objects. 
-This library allows users of apps (relying on said database) to avoid working with SQL and dbole objects by creating custom objects that handle SQL and SQL client lib.
+﻿This library is a data access layer that aids in building personalized class objects to support data encapsulation. 
+This library allows users of apps to avoid working with SQL and dbole objects by creating custom objects that handle SQL and SQL client lib.
 
 The only caution to be taken in considering this methodology is that each edit of a targeted datatable must be reflected by a few (limited by design) objects.
 Targeting .NET 5.0 and following OOP principles and architecture, this structure is designed to be robust and limit exceptions.
